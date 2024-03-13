@@ -1,56 +1,70 @@
 
-
-
-body  {
-  color: #430f58;
-       padding: 3rem 0;
-    background: #8594e4;
-}
-
-
-h1 {
-  color:#6643b5;
-  font-size: 40px;
-}
-
 main {
   margin-top: 50px;
   text-align: left;
 }
 
+body  {
+  color: #2a142a;
+       padding: 3rem 0;
+         overflow: hidden;
+       
+background-image: url(
+
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/118/916/original/antique-art-bookcase-1301585-5c4aa9d3c9e77c0001396b12.jpg?1710363517);
+  
+}
+
+
+h1 {
+  color:#7e0d7e;
+  font-size: 40px;
+}
+
+
+
 .container {
   background:  #d5def5;
-  margin: 0 auto;
+      background-color: rgb(247 211 211 / 50%);
+
+  margin: 30px auto;
   max-width: 600px;
-  padding: 25px;
+  padding: 15px 30px 30px 15px;
   text-align: center;
   border-radius: 30px;
   box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .form-container {
-  text-align: center;
+      text-align: left;
+    background-color: #fce4e4;
+    border-radius: 40px;
+    color: #430f58;
+    font-size: 15px;
+    padding: 20px 30px 20px 30px;
+    margin: 30px 0px;
 }
+
 
 .poem-generator-form {
   padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #fce4e4;
     margin-top: 20px;
     border-radius: 5px;
 }
 
 .input-field {
-  padding: 10px;
-  width: 58%;
-  margin-bottom: 10px;
-  background-color: #f9f9f9;
-      border-radius: 5px;
+         padding: 10px 10px;
+    width: 78%;
+    margin-bottom: -1px;
+    background-color: #f9f9f9;
+    border-radius: 14px;
 }
 
 
 .submit-button {
   padding: 10px 20px;
-  background-color: #6643b5;;
+  background-color: #7e0d7e;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -58,39 +72,41 @@ main {
 }
 
 .submit-button:hover {
-  background-color: #555; /* Change background color on hover */
+  background-color: #555; 
 }
 
-/* Poem response styling */
+
 .poem-response {
-      padding: 100px;
-  background-color: #f0f0f0;
-  margin-top: 30px;
-  border-radius: 30px;
-  color: #430f58;
-  font-size: 15px;
-    padding: 30px;
-    margin: 30px 30px;
+    background-color: #fce4e4;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: #430f58;
+    font-size: 15px;
+    padding: 20px 30px 100px 30px;   
+     margin: 30px 0px;
     line-height: 1.5;
     
 
 }
 
-footer {
-  margin-top: 50px;
-}
 
 .footer {
-  text-align: center;
+    border-top: 1px solid #4e1b4e;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 900;
+    padding-top: 20px;
 }
 
 .footer a {
-  color: #430f58;
+  color: #7e0d7e;
 }
 
 
 .hint {
-  color: #777;
+  color: #0d0c0c;
   font-style: italic;
   margin-top: 10px;
 }
+ 
