@@ -10,31 +10,37 @@
 
 <body>
 
-  <h1>
+  <div class="container">
 
-    AI Poem Generator
-  </h1>
+    <h1>AI Poem Generator ✍🏼 </h1>
 
-  <main>
-    <form>
-      <input type="text" placeholder="Enter your Poem here " autofocus required autocomplete="off">
-      <input type="submit">
+    <main>
+      <div class="form-container">
+        <form id="poem-generator-form">
+          <input type="text" placeholder="Enter your topic here" autofocus required autocomplete="off"
+            class="input-field">
+          <input type="submit" class="submit-button">
+        </form>
+        <div class="hint">
+          Hint: Try entering keywords related to emotions, nature, or memories.
+        </div>
+      </div>
 
-    </form>
-    <div>
-      The Poem will go here.
-      <br />
-      Once it's been generated
-    </div>
-  </main>
-  <footer>
-    <p class="footer">
-      This AI project was coded by
-      <a href="https://github.com/Reya0707" target="_blank">Reya El Thaalabi</a> and is open-sourced
-      <a href="https://github.com/Reya0707/AI-Poem-Generator" target="_blank"> on GitHub</a> and
-      <a href="https://reyaipoemgenerator.netlify.app/" target="_blank">hosted on Netlify</a>
-    </p>
-  </footer>
+      <div class="poem-response">
+        The Poem will go here.<br> Once it's been generated
+      </div>
+    </main>
+
+    <footer>
+      <p class="footer">
+        This AI project was coded by
+        <a href="https://github.com/Reya0707" target="_blank">Reya 🤘</a> and is open-sourced
+        <a href="https://github.com/Reya0707/AI-Poem-Generator" target="_blank">on GitHub</a> and
+        <a href="https://reyaipoemgenerator.netlify.app/" target="_blank">hosted on Netlify</a>
+      </p>
+    </footer>
+
+  </div>
   <script src="src/index.js"></script>
 </body>
 
