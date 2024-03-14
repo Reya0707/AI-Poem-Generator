@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/style.css">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <title>Reya AI Poem Generator</title>
 </head>
 
@@ -25,9 +26,10 @@
           Hint: Try entering keywords related to emotions, nature, or memories.
         </div>
       </div>
+      <div class="poem-response" id="poem-response"></div>
 
-      <div class="poem-response">
-        The Poem will go here, <br> once it's been generated ✨
+      <div class="waiting-message" style="display: none;">
+        Generating poem... Please wait.
       </div>
     </main>
 
