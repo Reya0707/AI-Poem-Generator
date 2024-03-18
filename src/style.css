@@ -76,11 +76,11 @@ h1 {
 
 .poem-response {
     background-color: #fce4e4;
-    margin-top: 30px;
+    text-align: center;
     border-radius: 30px;
     color: #430f58;
     font-size: 15px;
-    padding: 20px 30px 100px 30px;   
+    padding: 20px 30px 40px 30px;   
      margin: 30px 0px;
     line-height: 1.5;
     
