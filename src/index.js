@@ -17,7 +17,7 @@ function displayPoem(response) {
 
 function generatePoem(event) {
   event.preventDefault();
-
+ displayWaitingMessage();
   let instructionsInput = document.querySelector("#user-instructions"); 
   let apiKey = "36c26f017e4ae34tb6a9679bb25odafe";
   let context =
